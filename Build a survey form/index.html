@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+    <h1 id="title">Registration Form</h1>
+    <p id="description">Help us better your experience by filling out the form!</p>
+  </div>
+  <div class="form">
+      <form id="survey-form">
+        <label id="name-label">Full Name</label>
+        <input id="name" type="text" required placeholder="Full Name">
+      <div class="form-items">
+        <label id="email-label">Email Address</label>
+        <input id="email" type="email" required placeholder="Email Address">
+        <label id="number-label">Age</label>
+        <input id="number" type="number" min="18" max="120" placeholder="Age">
+      <h3>What is your favorite thing about our website ?</h3>
+      <select id="dropdown" placeholder="Select an option">
+        <option></option>
+        <option>Projects</option>
+        <option>Community</option>
+        </select>
+        <div class="form-group">
+            <h3>Would you recommend us ?</h3>
+            <input type="radio" name="refer" value="1">
+            <p>Yes</p>
+            <input type="radio" name="refer" value="2">
+            <p>No</p>
+          </div>
+          <div class="form-group">
+            <h3>What is your goal ?</h3>
+            <input type="checkbox" value="1">
+            <p>Front-end career</p>
+            <input type="checkbox" value="2">
+            <p>Back-end career</p>
+          </div>
+          <p>Please leave any comments or suggestions.</p>
+          <textarea id="text-area" placeholder="Enter your comment here..."></textarea>
+          <input id="submit" type="submit">
+      </div>    
+  </div>   
+  </body>
+  </html>

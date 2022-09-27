@@ -1,0 +1,113 @@
+body {
+  background: linear-gradient(#FAD2E1, #CDDAFD);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-shadow: 0 0 2px black;
+  color: #BEE1E6; 
+}
+#title {
+  border: none dotted black;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+#description {
+  border: none dotted black;
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#survey-form {
+  border: none dotted black;
+  padding: 10px; 
+
+}
+#name {
+  border: 1px solid gray;
+  width: 400px;
+  height: 30px;
+  border-radius: 6px;
+  margin: 20px auto;
+}
+#email {
+  border: 1px solid gray;
+  width: 400px;
+  height: 30px;
+  border-radius: 6px;
+  margin: 20px auto;
+}
+#number {
+  border: 1px solid gray;
+  width: 400px;
+  height: 30px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+#name-label {
+  border: none solid black;
+  padding: 10px;
+  margin: 110px;
+  font-size: 20px;
+}
+#email-label {
+  border: none dotted black;
+  font-size: 20px;
+  margin: 110px;
+}
+#number-label {
+  border: none dotted black;
+  font-size: 20px;
+  margin: 110px;
+}
+#submit {
+  border: 1px solid gray; 
+  width: 70%;
+  padding: 8px 18px;
+  border-radius: 5px;
+  background: #BEE1E6;
+  margin: 20px;
+}
+#dropdown {
+  width: 70%;
+  margin: 10px auto;
+}
+#text-area {
+  margin: 0 auto;
+  width: 90%;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.hero {
+  border: none dotted black;
+  width: 100%;
+}
+.form {
+  border: none dotted black;
+  border-radius: 10px;
+  height: 100%;
+  width: 600px;
+  margin: 0 auto;
+  background: #FFF1E6;
+  font-weight: 700; 
+}
+.form-items {
+  border: none dotted black;
+  padding: 10px;
+  margin: 0 auto;
+  }
+  .form-group {
+    border: none solid black;
+    display: inline; 
+    padding: 10px;
+
+  }
+  p {
+    display: inline-flex;
+
+  }
+  h3 {
+    margin: 15px auto;
+    border: none solid black;
+    padding: 10px;
+    width: 400px
+  }
